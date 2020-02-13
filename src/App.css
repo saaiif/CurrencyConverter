@@ -1,5 +1,9 @@
-body {
+* {
 	margin: 0;
+	padding: 0;
+}
+
+body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -46,12 +50,12 @@ select {
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
 	h1 {
-		font-size: 80px;
+		font-size: 40px;
 	}
 
 	.input {
 		padding: 1rem;
-		width: 25em;
+		width: 18em;
 		font-size: 20px;
 		font-weight: bold;
 	}
@@ -61,15 +65,15 @@ select {
 		width: 67px;
 		font-weight: bold;
 		border: 2px solid #2f363f;
+		height: 30px;
 		outline: none;
-		height: 51px;
 		/* font-family: 'Roboto', sans-serif; */
 		font-family: 'Montserrat', sans-serif;
 	}
 
 	.equals {
 		font-weight: bold;
-		font-size: 2rem;
+		font-size: 2.2rem;
 		/* margin-top: -10px; */
 		display: flex;
 		justify-content: center;
@@ -84,7 +88,7 @@ select {
 	}
 	.input {
 		padding: 1.2rem;
-		width: 30em;
+		width: 20em;
 		font-size: 16px;
 		font-weight: bold;
 	}
@@ -92,7 +96,7 @@ select {
 		margin-left: 0.5rem;
 		width: 80px;
 		height: 50px;
-		font-size: 20px;
+		font-size: 2.5rem;
 	}
 }
 
@@ -101,6 +105,29 @@ select {
 }
 
 @media (max-width: 577px) {
+	h1 {
+		font-size: 55px;
+	}
+
+	.input {
+		padding: 1rem;
+		width: 11em;
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+	select {
+		margin-left: 0.5rem;
+
+		font-weight: bold;
+		font-size: 15px;
+		height: 52px;
+	}
+
+	.equals {
+		font-weight: bold;
+		font-size: 2.5rem;
+	}
 }
 
 /********** Large Mobile devices only **********/
