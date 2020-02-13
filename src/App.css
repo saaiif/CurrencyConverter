@@ -39,3 +39,81 @@ select {
 	font-size: 2rem;
 	/* margin-top: -10px; */
 }
+
+@media (min-width: 1200px) {
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	h1 {
+		font-size: 80px;
+	}
+
+	.input {
+		padding: 1rem;
+		width: 25em;
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	select {
+		margin-left: 0.5rem;
+		width: 67px;
+		font-weight: bold;
+		border: 2px solid #2f363f;
+		outline: none;
+		height: 51px;
+		/* font-family: 'Roboto', sans-serif; */
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.equals {
+		font-weight: bold;
+		font-size: 2rem;
+		/* margin-top: -10px; */
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	h1 {
+		font-size: 70px;
+	}
+	.input {
+		padding: 1.2rem;
+		width: 30em;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	select {
+		margin-left: 0.5rem;
+		width: 80px;
+		height: 50px;
+		font-size: 20px;
+	}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+}
+
+@media (max-width: 577px) {
+}
+
+/********** Large Mobile devices only **********/
+@media (max-width: 450px) {
+}
+
+/********** Medium Mobile devices only **********/
+@media (max-width: 380px) {
+}
+
+/********** small Mobile devices only (eg: Iphone 4, ) **********/
+@media (max-width: 330px) {
+}
+
+/* Responsive view styling ends */
+/* ********************************************************** */

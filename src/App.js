@@ -62,7 +62,7 @@ function App() {
 				amount={fromAmount}
 				onChangeEvent={(e) => setFromCurrency(e.target.value)}
 			/>
-			<div className="equals">=</div>
+			<div className="equals"><>=</></div>
 			<CurrencyRow
 				currentOptions={currentOptions}
 				selectedCurrency={toCurrency}
